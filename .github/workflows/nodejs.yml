@@ -24,3 +24,5 @@ jobs:
         npm test
       env:
         CI: true
+    - name: Deploy to GH Pages
+      run: npm run deploy
