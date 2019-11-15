@@ -23,3 +23,5 @@ jobs:
         git config --global user.name "fprokofiev"
         git remote set-url origin https://b7c45e91c62c34aeeabfe29bb7003f4e22ae20a8@github.com/fprokofiev/face-recognition-brain.git
         npm run deploy
+        
+        
