@@ -13,7 +13,7 @@ const FaceRecognition = ({ imageUrl, boxes }) => {
 	return(
 		<div className='tc flex justify-center ma3'>
 			<div className='relative white f3 dib'>
-				<img className='shadow-1' id='input-image' width='500px' alt='Face Recognition' src={ imageUrl } />
+				<img className='shadow-1' id='input-image' width='500px' alt='' src={ imageUrl } />
 					{ BoxDivs }
 			</div>
 		</div>
